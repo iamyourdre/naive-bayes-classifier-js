@@ -1,0 +1,20 @@
+###
+GET http://localhost:5000/sampleGenre
+
+###
+GET http://localhost:5000/sample
+
+# ###
+# POST http://localhost:5000/sample
+# Content-Type: application/json
+
+# {
+#     "genre": "EMO", "x1": 75, "x2": 1049265, "x3": 3091, "x4": 3105
+# }
+
+
+
+
+###
+POST http://localhost:5000/calcProbability
+Content-Type: application/json

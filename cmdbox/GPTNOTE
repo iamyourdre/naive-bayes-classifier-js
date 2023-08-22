@@ -1,0 +1,34 @@
+Buatkan model untuk tabel berikut ini:
+
+Tabel "NB_phase1" dengan atribut:
+- id : primary_key, auto increment
+- genre : string, unique
+- quantity : integer
+- probability : double
+
+Tabel "NB_phase2" dengan atribut:
+- genre_id : primary_key, relasi merujuk ke atribut id tabel "NB_phase1"
+- mean_x1 : double
+- mean_x2 : double
+- mean_x3 : double
+- mean_x4 : double
+
+Table "NB_phase3" dengan atribut:
+- genre_id : primary_key, relasi merujuk ke atribut id tabel "NB_phase1"
+- sd_x1 : double
+- sd_x2 : double
+- sd_x3 : double
+- sd_x4 : double
+
+Table "NB_phase4" dengan atribut:
+- genre_id : primary_key, relasi merujuk ke atribut id tabel "NB_phase1"
+- nd_x1 : double
+- nd_x2 : double
+- nd_x3 : double
+- nd_x4 : double
+
+Table "NB_phase5_result" dengan atribut:
+- genre_id : primary_key, relasi merujuk ke atribut id tabel "NB_phase1"
+- probability : double
+
+Kemudian gabungkan semuanya dan export default dalam NaiveBayesModel.js

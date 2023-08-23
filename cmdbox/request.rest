@@ -16,5 +16,5 @@ GET http://localhost:5000/sample
 
 
 ###
-POST http://localhost:5000/calcProbability
+POST http://localhost:5000/NaiveBayesClassifier
 Content-Type: application/json

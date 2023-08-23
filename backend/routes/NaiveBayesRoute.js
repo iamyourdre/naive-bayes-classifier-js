@@ -1,11 +1,11 @@
 import express from "express";
 import { 
-    calcProbability
+    NaiveBayesClassifier
 } from "../controllers/NaiveBayesController.js";
 
 const router = express.Router();
 
 // Define routes and their corresponding controller functions
-router.post('/calcProbability', calcProbability); // Route to get all sample data
+router.post('/NaiveBayesClassifier', NaiveBayesClassifier); // Route to get all sample data
 
 export default router;

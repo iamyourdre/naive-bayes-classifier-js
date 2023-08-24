@@ -1,4 +1,4 @@
-# Naive Bayes JS
+# Naive Bayes Classifier JS
 
 ### With Node JS, Express and MySQL
 

@@ -26,10 +26,6 @@
 ```
 POST http://localhost:5000/CreateNaiveBayesDataset
 Content-Type: application/json
-
-{
-    "x1": 30, "x2": 922001, "x3": 3631, "x4": 3726
-}
 ```
 - Then, <b>put your input on x1, x2, x3, and x4 and run it</b>. It will classify the genre from your input. 
 ```

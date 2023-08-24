@@ -16,10 +16,6 @@ GET http://localhost:5000/sample
 POST http://localhost:5000/CreateNaiveBayesDataset
 Content-Type: application/json
 
-{
-    "x1": 30, "x2": 922001, "x3": 3631, "x4": 3726
-}
-
 ###
 POST http://localhost:5000/NaiveBayesClassifier
 Content-Type: application/json

@@ -56,27 +56,7 @@ const NB_dataclass = db.define(
     sd_x4: {
       type: DataTypes.DOUBLE,
       allowNull: true,
-    },
-    nd_x1: {
-      type: DataTypes.DOUBLE,
-      allowNull: true,
-    },
-    nd_x2: {
-      type: DataTypes.DOUBLE,
-      allowNull: true,
-    },
-    nd_x3: {
-      type: DataTypes.DOUBLE,
-      allowNull: true,
-    },
-    nd_x4: {
-      type: DataTypes.DOUBLE,
-      allowNull: true,
-    },
-    probability: {
-      type: DataTypes.DOUBLE,
-      allowNull: true,
-    },
+    }
   },
   {
     freezeTableName: true,

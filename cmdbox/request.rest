@@ -12,9 +12,18 @@ GET http://localhost:5000/sample
 #     "genre": "EMO", "x1": 75, "x2": 1049265, "x3": 3091, "x4": 3105
 # }
 
+### 
+POST http://localhost:5000/CreateNaiveBayesDataset
+Content-Type: application/json
 
-
+{
+    "x1": 30, "x2": 922001, "x3": 3631, "x4": 3726
+}
 
 ###
 POST http://localhost:5000/NaiveBayesClassifier
 Content-Type: application/json
+
+{
+    "x1": 30, "x2": 922001, "x3": 3631, "x4": 3726
+}
